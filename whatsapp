@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .whatsapp-button {
+            background-color: #25d366;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Entre em Contato Conosco</h1>
+        <p>Pressione o botão abaixo para enviar uma mensagem via WhatsApp:</p>
+        <a href="https://api.whatsapp.com/send?phone=5585981078453&text=Oi%20tudo%20bem%20%3F%20Vi%20sua%20empresa%20no%20Google%20e%20gostaria%20de%20uma%20visita" target="_blank" class="whatsapp-button">Contatar via WhatsApp</a>
+    </div>
+</body>
+</html>
